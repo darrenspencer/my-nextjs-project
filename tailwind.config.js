@@ -1,16 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,jsx}',
+    './src/components/**/*.{js,jsx}',
+    './src/app/**/*.{js,jsx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: '#1d4ed8', // Blue color for primary elements
+        secondary: '#f3f4f6', // Light grey for background
+        button: '#3b82f6', // Blue color for buttons
+        text: '#111827', // Dark grey for text
+        background: '#ffffff' // White for background
+      },
+      borderRadius: {
+        'rounded-full': '9999px', // Full rounded buttons
       },
     },
   },
