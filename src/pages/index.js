@@ -5,20 +5,20 @@ export default function HomePage() {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold mb-2">Welcome to Your Company Name</h1>
-        <p className="text-lg">Your reliable partner in ensuring community safety by monitoring individuals released on bond or probation.</p>
+        <p className="text-lg">Your reliable partner in helping monitor defendants out on bond and probation. Our innovative tool aids prosecuting attorneys in Missouri by automatically searching Casenet weekly, identifying those who violate the terms of their release by picking up new cases. Our mission is to arm prosecutors with the information to hold defendants accountable for not committing new law violations while their cases are pending, thus helping limit potential dangers to the community.</p>
       </header>
       
       <section className="mb-8">
         <h2 className="text-3xl font-semibold mb-4">About Us</h2>
-        <p>At Your Company Name, we are dedicated to enhancing public safety by providing advanced monitoring solutions. Our team is committed to supporting prosecuting attorneys in their efforts to uphold justice and protect communities. By focusing on individuals who pose significant risks, we strive to make our neighborhoods safer.</p>
+        <p>At Your Company Name, we identified that it is difficult to know what defendants are doing in other jurisdictions in Missouri. Our team is committed to delivering the monitoring tools to prosecuting attorneys to uphold the Court’s conditions. Because justice delayed is justice denied, we search Casenet automatically every week, instead of waiting for information to be shared by chance to an attorney.</p>
       </section>
       
       <section className="mb-8">
         <h2 className="text-3xl font-semibold mb-4">Our Services</h2>
         <ul className="list-disc list-inside">
-          <li>Automated Search: Our tool conducts weekly searches of the Casenet database, identifying individuals who have violated the terms of their bond or probation.</li>
-          <li>Reporting: Receive detailed reports of all names that have broken the terms of their bond or probation, ensuring you stay informed and prepared.</li>
-          <li>Document Creation: Our tool can generate bond revocation documents, ready for submission to the court, streamlining the legal process for prosecuting attorneys.</li>
+          <li>Automated Search: Our tool conducts weekly searches of the Casenet database, identifying individuals who have new cases.</li>
+          <li>Reporting: Receive detailed reports of all defendants that have broken the terms of their bond or probation, ensuring you stay informed and prepared.</li>
+          <li>Document Creation: Our tool can generate bond revocation motions, ready for submission to the court, streamlining the legal process for prosecuting attorneys and their staff.</li>
         </ul>
       </section>
       
